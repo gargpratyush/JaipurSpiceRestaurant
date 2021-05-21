@@ -1,0 +1,23 @@
+.header {
+  height: 100vh;
+  background-color: #44484b;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  background-image: url("../images/—Pngtree—dark\ wood\ grain\ background\ material_1135073.jpg");
+  // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.cover {
+  transform: translateY(10rem);
+}
+
+/* .logo-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  height: 70px;
+} */

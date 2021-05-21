@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #00adb5;
+  z-index: 0;
+  text-align: center;
+}
+
+.body {
+  font-family: "Nova Flat", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.cover-text {
+  position: absolute;
+  top: 95px;
+  left: 30px;
+  font-size: 5rem;
+  /* font-family: "Ubuntu Mono", sans-serif; */
+  /* font-family: "Shadows Into Light", cursive; */
+  font-family: "Caveat", cursive;
+  color: white;
+}
+
+.sub-text {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  font-size: 2rem;
+  /* font-family: "Ubuntu Mono", sans-serif; */
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-weight: lighter;
+}
+
+button {
+  padding: 9px 15px;
+  background-color: #aad8d3;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button :hover {
+  background-color: rgba(0, 173, 181, 0.8);
+}
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.btn-white {
+  color: #777;
+}
+
+.cover-btn {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  font-size: 1rem;
+}
+
+.navigation-bar {
+  background-color: #24252a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1% 10%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #00adb5;
+}
+
+.header {
+  height: 92.5vh;
+  background-color: #44484b;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  background-image: url("../images/—Pngtree—dark wood grain background material_1135073.jpg");
+}
+
+/* .logo-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  height: 70px;
+} */
+.cover-image {
+  width: 300px;
+  position: absolute;
+  right: 170px;
+  top: 100px;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+  z-index: 1;
+}
+
+.cover-image-2 {
+  width: 350px;
+  position: absolute;
+  right: 150px;
+  top: 350px;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+  z-index: 2;
+}
+
+.cover-image-3 {
+  width: 220px;
+  position: absolute;
+  right: 500px;
+  top: 250px;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  -webkit-transform: rotate(258deg);
+          transform: rotate(258deg);
+  z-index: 1;
+}
+
+.cover-button {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+li,
+a {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.specialities {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.specialities-heading {
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=main.css.map */

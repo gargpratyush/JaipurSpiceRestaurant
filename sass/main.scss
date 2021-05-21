@@ -1,0 +1,126 @@
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "components/buttons";
+@import "components/card";
+@import "components/navbar";
+// @import "components/composition";
+@import "components/feature-box";
+@import "components/story";
+@import "components/form";
+
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cover-image {
+  width: 300px;
+  position: absolute;
+  right: 170px;
+  top: 100px;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  transform: rotate(-12deg);
+  z-index: 1;
+}
+
+.cover-image-2 {
+  width: 350px;
+  position: absolute;
+  right: 150px;
+  top: 350px;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  transform: rotate(12deg);
+  z-index: 2;
+}
+
+.cover-image-3 {
+  width: 220px;
+  position: absolute;
+  right: 500px;
+  top: 250px;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  transform: rotate(258deg);
+  z-index: 1;
+}
+
+.cover-button {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+li,
+a {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+// .specialities {
+//   align-items: center;
+//   text-align: center;
+// }
+
+// .specialities-heading {
+//   text-align: center;
+//   font-family: "Maven Pro", sans-serif;
+//   // font-size: 3rem;
+// }
+
+.boxContainer {
+  margin: auto;
+  // margin-top: 20%;
+  margin-bottom: 50px;
+  width: 300px;
+  height: 42px;
+  border: 4px solid #55c57a;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+
+.elementsContainer {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+  color: #424242;
+  font-weight: 500;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.material-icons {
+  font-size: 26;
+  color: #55c57a;
+}
